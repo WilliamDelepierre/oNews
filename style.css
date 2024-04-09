@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+:root {
+  --color-Liens-article: #007bff;
+  --color-Liens-article-survol: #0056b3;
+  --color-fond-header: #f9f9f9;
+  --color-bordure-article: #eaeaea;
+  --color-WORK: #0766f0;
+  --color-TEAM: #dc5e53;
+  --color-NEWS: #98dc62;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  color: whitesmoke;
 }
 
 .nicole img {
@@ -40,13 +51,11 @@ body {
 .nicole h1 {
   display: flex;
   flex-direction: column;
-  color: white;
   font-size: 1.8rem;
   text-transform: uppercase;
 }
 
 .news {
-  color: whitesmoke;
   background-color: #d6d6d62c;
   backdrop-filter: blur(2px);
   text-align: right;
@@ -68,7 +77,6 @@ body {
 }
 
 nav ul {
-  color: whitesmoke;
   display: flex;
   justify-content: end;
   gap: 30px;
@@ -84,7 +92,7 @@ nav ul {
 
 header {
   padding: 25px;
-  background-color: #f9f9f9;
+  background-color: var(--color-fond-header);
   position: sticky;
   width: 100%;
 }
@@ -101,7 +109,7 @@ header h1 {
 .article {
   box-sizing: border-box;
   width: 50%;
-  border: 1px solid #eaeaea;
+  border: 1px solid var(--color-bordure-article);
   text-align: left;
   padding: 25px;
 }
@@ -137,12 +145,12 @@ header h1 {
 }
 
 .article a {
-  color: #007bff;
+  color: var(--color-Liens-article);
   font-weight: 600;
 }
 
 .article a:hover {
-  color: #0056b3;
+  color: var(--color-Liens-article-survol);
 }
 
 #news,
@@ -158,13 +166,13 @@ header h1 {
 }
 
 #news {
-  background-color: #98dc62;
+  background-color: var(--color-NEWS);
 }
 
 #team {
-  background-color: #dc5e53;
+  background-color: var(--color-TEAM);
 }
 
 #work {
-  background-color: #0766f0;
+  background-color: var(--color-WORK);
 }
