@@ -23,7 +23,7 @@ body {
   height: 100vh;
 }
 
-.nicole {
+#nicole {
   background: url(images/nicole.jpg) no-repeat;
   background-size: cover;
   background-color: grey;
@@ -36,7 +36,20 @@ body {
   color: whitesmoke;
 }
 
-.nicole img {
+#gabriel {
+  background: url(images/gabriel.jpg) no-repeat;
+  background-size: cover;
+  background-color: grey;
+  background-position: center;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: whitesmoke;
+}
+
+.logo img {
   width: 50px;
   padding-right: 20px;
 }
@@ -48,7 +61,7 @@ body {
   margin-top: 10px;
 }
 
-.nicole h1 {
+.titre_page1 {
   display: flex;
   flex-direction: column;
   font-size: 1.8rem;
