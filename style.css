@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.nicole {
+  background: url(images/nicole.jpg) no-repeat;
+  background-size: cover;
+  background-color: grey;
+  background-position: center;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nicole img {
+  width: 50px;
+  padding-right: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-start;
+  padding: 40px;
+  margin-top: 10px;
+}
+
+.nicole h1 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-transform: uppercase;
+}
+
+.news {
+  color: whitesmoke;
+  background-color: #f9f9f946;
+  text-align: right;
+  align-self: center;
+  padding: 20px 15px;
+  text-shadow: 0 0 5px black;
+  margin: 25px;
+}
+
+.news h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.news h2 span {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 16px;
+}
+
+nav ul {
+  color: whitesmoke;
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+  margin: 0 30px 25px 0;
+  text-shadow: 0px 0px 5px black;
+}
+
+.section2 {
+  width: 50%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+header {
+  padding: 25px;
+  background-color: #f9f9f9;
+  position: sticky;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+.page2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article {
+  box-sizing: border-box;
+  width: 50%;
+  border: 1px solid #eaeaea;
+  text-align: left;
+  padding: 25px;
+}
+
+.article h2 {
+  font-size: 1.4rem;
+  margin: 20px 0;
+}
+
+.pseudo {
+  display: flex;
+  align-items: center;
+}
+
+.pseudo img {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+.pseudo p {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.pseudo p span {
+  color: #9c9b9b;
+  font-weight: 400;
+}
+
+.article p {
+  margin: 15px 0;
+}
+
+.article a {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.article a:hover {
+  color: #0056b3;
+}
+
+#news,
+#team,
+#work {
+  color: whitesmoke;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+#news {
+  background-color: #98dc62;
+}
+
+#team {
+  background-color: #dc5e53;
+}
+
+#work {
+  background-color: #0766f0;
+}
