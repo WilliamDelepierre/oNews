@@ -44,7 +44,8 @@ body {
 
 .news {
   color: whitesmoke;
-  background-color: #f9f9f946;
+  background-color: #d6d6d62c;
+  backdrop-filter: blur(2px);
   text-align: right;
   align-self: center;
   padding: 20px 15px;
